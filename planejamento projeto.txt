@@ -1,0 +1,71 @@
+SISTEMA DE MANUTENÇÃO INDUSTRIAL
+
+REQUISITOS FUNCIONAIS
+
+1 - Abrir uma ordem de serviço
+2 - Calcular custos do serviço
+3 - Registrar quem, como, e quando foi realizado o serviço
+4 - Cadastrar diferentes usuários, com diferentes funções e níveis de acesso.
+5 - Retornar dados indicativos de manutenção
+6 - Fazer um controle de estoque de peças e ferramentas
+7 - Fazer requisição de compra de peças e ferramentas
+8 - Manter um histórico de ordem de serviços
+
+REQUISITOS NÃO FUNCIONAIS
+
+1 - Praticidade na execução e baixo tempo de resposta
+2 - Retornar valores precisos, e com acesso apenas de pessoas autorizadas
+3 - A ação deve ser intuitiva para o usuário, e os dados devem ser armazenados 
+em um banco de dados
+4 - Manter os dados do usuário em sigilo e armazená-los em um banco de dados
+5 - Retornar dados diariamente, com fácil acesso para analistas
+6 - Deixando os dados organizados de maneira clara e segura
+7 - Armazenar de maneira segura e sigilosa e enviar requisições rápidas
+8 - Guardando dados em um banco, com acesso restrito
+
+LIMITES
+
+Inlcuído: 
+- Funcionalidades ligadas à manutenção e ordens de serviço
+
+Excluído:
+- Gerenciamento de dados de operação normal da máquina ou rotinas de trabalho que
+não estejam ligadas à manutenção
+
+ANÁLISE DE RISCOS
+
+Identificação de riscos
+
+- Não cumprimento de prazos na construção do projeto
+- Perca de dados de usuário ou importantes para o sistema
+- Vulnerabilidades de segurança
+- Quedas de servidor e sistema
+
+Avaliação e priorização
+
+- Média probabilidade: Não cumprimento de prazos na construção do projeto 
+(alto impacto)
+- Baixa probabilidade: Vulnerabilidades de segurança
+(alto impacto)
+- Baixa probabilidade: Perca de dados de usuário ou importantes para o sistema
+(alto impacto)
+- Baixa probabilidade: Quedas de servidor e sistema
+(baixo impacto)
+
+Planos de contingência
+
+- Planejamento e acompanhamento das etapas de desenvolvimento do projeto
+- Auditorias de segurança e implementar medidas de proteção de dados e sistema
+- Boa estrutura e backup constante do banco de dados
+- Servidores com estabilidade e reservas
+
+
+
+
+
+
+
+
+
+
+
